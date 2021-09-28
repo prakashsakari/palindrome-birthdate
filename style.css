@@ -14,6 +14,16 @@ body {
     margin: 0;
 }
 
+.intro {
+    border: 1px solid var(--text-color);
+    padding: 1rem 1rem;
+    border-radius: 0.4rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-weight: bold;
+    font-size: larger;
+}
+
 h1 {
     margin-top: 4rem;
     margin-bottom: 2rem;
