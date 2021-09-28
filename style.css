@@ -2,7 +2,8 @@
 
 :root {
     --background-color: #272C60;
-    --text-color: #DE3448;
+    /* --text-color: #DE3448; */
+    --text-color: #F87171;
 
 }
 
@@ -64,6 +65,8 @@ button {
     border-color: var(--primary-text-color);
     border-radius: 0.3rem;
     font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: larger;
 }
 
 #message {
@@ -71,4 +74,5 @@ button {
     font-weight: bold;
     width: 70%;
     margin-left: 5rem;
+    font-size: larger;
 }

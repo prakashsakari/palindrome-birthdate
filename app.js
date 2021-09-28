@@ -149,7 +149,7 @@ function clickHandler(e) {
     if (birthDate !== "") {
         var checkPalindrome = checkPalindromeForAllDateFormat(date);
         if (checkPalindrome) {
-            message.innerText = "Yaah! Your birthdate is a palindrome"
+            message.innerText = "Yaah! Your birthdate is a palindrome🥳🥳"
             
         } else {
             var [counter, nextDate] = getNextDatePalindrome(date);
